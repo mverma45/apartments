@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/8d6b56777f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Sign In</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="head">
+          <a href="../HTML/index.html">
+            <img src="../Images/properties.JPG" alt="Properties Logo"
+          /></a>
+          <ul class="rent-nav">
+            <li>
+              <i class="fas fa-search"
+                ><a href="../HTML/search.html">Search</a></i
+              >
+            </li>
+            <li>
+              <i class="fas fa-list"
+                ><a href="../HTML/list.html">List Property</a></i
+              >
+            </li>
+            <li>
+              <i class="fas fa-signature"
+                ><a href="../HTML/signup.html">Sign up</a></i
+              >
+            </li>
+            <li>
+              <i class="fas fa-sign-in-alt"
+                ><a href="../HTML/signin.html">Sign in</a></i
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="rent-text">
+        <h1>Sign In?</h1>
+      </div>
+    </header>
+    <div class="account">
+      <form action="/signin">
+        <h2>Sign in to your account</h2>
+        <p>
+          <label for="username">Username:</label>
+          <input
+            id="username"
+            type="text"
+            placeholder="Username"
+            name="username"
+            required
+          />
+          <br />
+        </p>
+        <p>
+          <label for="password">Password:</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+          />
+          <br />
+        </p>
+
+        <button class="sign_in_button">Sign In</button>
+      </form>
+      <div class="sign-in">
+        <p>
+          Don't have an account <a href="../HTML/signup.html">create one</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <hr class="hr" />
+    <footer class="footer">
+      <div class="footer">
+        <ul class="footer-nav">
+          <li><a href="# ">About us</a></li>
+          <li>
+            <a href="#"><i class="fab fa-facebook">Facebook</i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram">Instagram</i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter">Twitter</i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube">YouTube</i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <li>
+          Copyright &copy; 2020 by properties4sale.com, Verma Technologies 2021
+        </li>
+      </div>
+    </footer>
+  </body>
+</html>

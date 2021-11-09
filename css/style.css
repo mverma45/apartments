@@ -1,0 +1,297 @@
+/* basic setup */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+/* Navigation */
+/* home page */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  max-width: 1360px;
+}
+
+nav {
+  background-image: url(../Images/sky.jpg);
+  background-size: 1350px;
+  margin-bottom: 5px;
+  background-repeat: no-repeat;
+}
+
+.head a {
+  text-decoration: none;
+  margin-left: 0;
+}
+/* ul,
+li {
+    margin-top: 5px;
+    background-color: #134b4d;
+    text-decoration: none;
+    text-align: center;
+} */
+
+.head img {
+  height: 200px;
+  width: 220px;
+  opacity: 0.5;
+}
+
+.rent-nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.home img {
+  height: 400px;
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.house-gallery h3 {
+  text-align: center;
+  font-size: 200%;
+}
+
+.home p {
+  text-align: center;
+  padding-bottom: 5px;
+}
+/* mainpage */
+
+.rent-text h1 {
+  text-align: center;
+}
+
+.home-buyer h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.home-buyer p {
+  padding-top: 20px;
+}
+
+.new-home h2 {
+  text-align: center;
+}
+
+.prop-manage p {
+  padding-top: 30px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.image-family img {
+  margin: 5px 10px;
+  height: 40%;
+  width: 30%;
+}
+
+.info-house p {
+  display: inline;
+  align-items: center;
+  padding-left: 5px;
+}
+/* rent section */
+
+.renter h2 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.renter p {
+  margin-left: 15px;
+  text-align: center;
+}
+
+.image-renters img {
+  margin: 5px 10px;
+  height: 40%;
+  width: 30%;
+  padding-top: 12px;
+}
+
+.info-rental p {
+  display: inline;
+  align-items: center;
+  padding-left: 5px;
+}
+/* pictures */
+
+.column img {
+  display: inline-flex;
+  height: 40%;
+  width: 30%;
+  margin-left: 2%;
+  padding-top: 5px;
+  object-fit: cover;
+}
+/* search page */
+
+.rent-text {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.search-bar {
+  text-align: center;
+  padding: 2% 0 25%;
+}
+/* signup */
+
+.container p {
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.signup {
+  display: block;
+  text-align: center;
+}
+/* pricing */
+
+.pricing h3 {
+  font-size: 200%;
+}
+
+.container label {
+  width: 200px;
+  display: inline-block;
+}
+
+.pricing-section {
+  margin-left: 5%;
+}
+
+.list ul,
+li {
+  list-style: none;
+}
+/* signin */
+
+.account {
+  display: block;
+  text-align: center;
+}
+
+.account h2 {
+  padding-bottom: 1%;
+}
+
+.sign-in p {
+  padding-bottom: 25%;
+}
+/* footer */
+
+.hr {
+  margin-top: 20em;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1em 0 0 25px;
+  background-color: aqua;
+}
+
+.fa-facebook:hover {
+  color: rgb(99, 87, 87);
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #8a3ab9;
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+}
+
+.fa-youtube:hover {
+  color: #ff0000;
+}
+/* screen sizes 1000px*/
+
+.copyright {
+  padding: 1em 0 0.5em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: aqua;
+}
+@media only screen and (max-width: 1000px) {
+  .head img {
+    height: 150px;
+    width: 180px;
+    opacity: 0.5;
+  }
+  .rent-text h1 {
+    font-size: 100%;
+  }
+  .home-buyer P {
+    font-size: 90%;
+  }
+  .new-home h2 {
+    font-size: 100%;
+  }
+  .prop-manage p {
+    font-size: 85%;
+  }
+  .search-bar {
+    text-align: center;
+    padding: 2% 0 75%;
+  }
+  .account {
+    text-align: center;
+    padding: 2% 0 25%;
+  }
+  .rent-nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    font-size: 70%;
+  }
+  .house-gallery h3 {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .head img {
+    height: 100px;
+    width: 130px;
+    opacity: 0.5;
+  }
+  .rent-text h1 {
+    font-size: 100%;
+  }
+  .home-buyer P {
+    font-size: 90%;
+  }
+  .new-home h2 {
+    font-size: 100%;
+  }
+  .prop-manage p {
+    font-size: 85%;
+  }
+  .footer-nav li {
+    font-size: 75%;
+  }
+}
